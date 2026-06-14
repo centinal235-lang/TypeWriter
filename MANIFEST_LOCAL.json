@@ -1,0 +1,11 @@
+{
+  "repo": "TYPEWRITER_LOCAL_MINIMAL_UI_REPO_R2",
+  "source_repo": "TYPEWRITER_GITHUB_MINIMAL_UI_REPO_R1",
+  "source_notebook": "notebooks/TYPEWRITER_GITHUB_MINIMAL_UI_COLAB_R1.ipynb",
+  "local_entrypoint": "app.py",
+  "adapter_zip_policy": "not committed; pass --adapter-zip or put under ./artifacts/",
+  "local_requirements": "requirements-local.txt",
+  "validation": {
+    "app_py_compile": true
+  }
+}

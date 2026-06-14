@@ -1,0 +1,8 @@
+gradio
+torch
+transformers
+peft
+accelerate
+safetensors
+bitsandbytes
+pandas

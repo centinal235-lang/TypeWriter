@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+transformers>=4.42.0
+accelerate>=0.30.0
+peft>=0.11.0
+bitsandbytes>=0.43.1
+safetensors>=0.4.3
+pandas>=2.0.0
+huggingface_hub>=0.23.0
+gradio>=4.44.0
