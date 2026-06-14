@@ -1,0 +1,12 @@
+.venv/
+artifacts/
+data/
+.env
+patch_app.py
+*.zip
+*.safetensors
+*.bin
+*.pt
+*.pth
+__pycache__/
+.ipynb_checkpoints/
