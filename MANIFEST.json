@@ -1,11 +1,6 @@
 {
-  "repo": "TYPEWRITER_GITHUB_MINIMAL_UI_REPO_R1",
-  "source_notebook": "TYPEWRITER_V146BR_COST_GUARD_SOURCE_PRECHECK_AF1K_R20.ipynb",
-  "ui_notebook": "notebooks/TYPEWRITER_GITHUB_MINIMAL_UI_COLAB_R1.ipynb",
-  "zip": "TYPEWRITER_GITHUB_MINIMAL_UI_REPO_R1.zip",
-  "compile_errors_ignored_ipython": [],
-  "sha256": {
-    "TYPEWRITER_GITHUB_MINIMAL_UI_REPO_R1.zip": "4331f2c2b796c0aeb3bfa1a25bb2e81dd89695963f25aa3d04cd5cd7f3aa9a55",
-    "notebooks/TYPEWRITER_GITHUB_MINIMAL_UI_COLAB_R1.ipynb": "4c5c4c3eb4507a03aa464778dc5653454f535a1e7d02b6d28c9b523fd7e1b96a"
-  }
+  "version": "TYPEWRITER_GITHUB_SPLIT_ADAPTER_UI_COLAB_R1",
+  "source_notebook": "/mnt/data/TYPEWRITER_GITHUB_RELEASE_MODEL_UI_COLAB_R1/notebooks/TYPEWRITER_GITHUB_RELEASE_MODEL_UI_COLAB_R1.ipynb",
+  "compile_errors": [],
+  "expects_parts_dir": "adapter_parts"
 }
