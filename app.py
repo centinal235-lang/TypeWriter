@@ -175,7 +175,7 @@ def should_execute_cell(index: int, title: str, src: str) -> bool:
 
 def patch_source_for_local(src: str, ns: Dict[str, object]) -> str:
     """Patch hard-coded Colab paths and harmless IPython syntax for local execution."""
-    data_dir = Path(ns["TYPEWRITER_DATA_DIR"])
+    data_dir = Path(ns.get("TYPEWRITER_DATA_DIR", REPO_ROOT / "data"))
     extract_root = data_dir / "typewriter_v146bf_r2e_adapter"
 
     src = src.replace(
@@ -304,8 +304,7 @@ def launch_ui(ns: Dict[str, object], args: argparse.Namespace) -> None:
         output = gr.Textbox(
             label="출력",
             lines=22,
-            show_copy_button=True,
-        )
+            )
 
         run_btn.click(fn=typewriter_generate, inputs=user_input, outputs=output)
 
